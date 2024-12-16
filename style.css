@@ -71,15 +71,7 @@ nav a:hover {
     font-weight: 400;
 }
 
-
-.luister-nu-button:hover {
-    color: #820303;
-    transform: scale(1);
-    background-color: white;
-}
-
-
-.luister-nu-button {
+.luister-nu-knop {
     background-color: #8d0404;
     width: 80px;
     position: absolute;
