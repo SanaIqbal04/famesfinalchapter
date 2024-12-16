@@ -40,14 +40,14 @@ nav a:hover {
 }
 
 /* HOME - PAGINA */
-.hero-image {
+section img {
     margin: 0;
     height: auto;
     width: 98vw;
 
 }
 
-.hero-text h1 {
+section h1 {
     text-align: center;
     position: absolute;
     top: 70%;
@@ -58,9 +58,8 @@ nav a:hover {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.hero-text p {
+section p {
     margin-top: 2.5em;
-    margin-bottom: 3rem;
     font-size: 17px;
     position: absolute;
     top: 70%;
@@ -71,12 +70,12 @@ nav a:hover {
     font-weight: 400;
 }
 
-.luister-nu-knop {
+.luister-nu-button {
     background-color: #8d0404;
     width: 80px;
     position: absolute;
     left: 570px;
-    top: 530px;
+    top: 500px;
     padding: 10px;
     border-radius: 10px;
     text-decoration: none;
@@ -100,6 +99,12 @@ nav a:hover {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+}
+
+.over-ons p {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 145%;
 }
 
 .over-ons a {
@@ -172,7 +177,7 @@ nav a:hover {
     display: flex;
     align-items: center;
     margin-top: 60px;
-    
+
 }
 
 
@@ -238,8 +243,8 @@ h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 0.9em;
     margin-top: 0%;
-    padding-left: 0.2em;
-    padding-bottom: 0.7em;
+    margin: 0;
+    margin-bottom: 1em;
 }
 
 .article-text p {
@@ -250,7 +255,6 @@ h2 {
 
 .article-text a {
     margin: 0;
-    margin-left: -0.5em;
     text-align: left;
     font-size: 0.9em;
     color: #820303;
@@ -265,8 +269,8 @@ h2 {
 
 
 /* VIDEO */
-iframe {
-    width: 1000px;
+video {
+    width: 70%;
     height: 500px;
     display: block;
     margin-left: auto;
@@ -283,32 +287,21 @@ iframe {
 
 
 /* AFLEVERINGEN - PAGINA */
-.pagina-titel {
-    background-image: url(/images/achtergrond-titel.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.pagina-titel img {
     height: 300px;
     width: 100%;
 }
 
 .pagina-titel h1 {
-    letter-spacing: 2px;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 60px;
+    font-size: 55px;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 500);
 
-}
-
-.overlay {
-    background-color: rgba(0, 0, 0, 0.32);
-    width: 100%;
-    height: 100%;
 }
 
 .seizoen1 {
@@ -388,6 +381,12 @@ iframe {
     margin-left: 0;
 }
 
+.judith-barsi-text h3 {
+    text-align: left;
+    margin: 0;
+
+}
+
 .judith-barsi-text a {
     display: flex;
     text-align: left;
@@ -413,17 +412,19 @@ iframe {
     margin: 1em 10em 1em 7em;
 }
 
-h2 {
+h3 {
+    color: #ffffff;
     text-align: left;
-    margin-left: 4.3em;
+    margin-left: 6em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 .judith-barsi-fotos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-left: 7%;
-    padding-top: 1%;
+    margin-left: 6em;
 }
 
 .fotos {
@@ -443,6 +444,11 @@ h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.foto-info h3 {
+    color: black;
+    margin: 0;
+}
+
 .foto-info p {
     font-size: 12px;
     font-weight: 500;
@@ -455,6 +461,11 @@ h2 {
 .foto-info a {
     color: #820303;
     margin-bottom: 5em;
+}
+
+.foto-info a:hover {
+    color: black;
+    font-weight: 600;
 }
 
 
